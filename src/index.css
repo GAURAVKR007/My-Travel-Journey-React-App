@@ -1,0 +1,69 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  /* padding: 200px 200px; */
+  margin: 0;
+  padding: 0;
+  background-color: rgba(42, 49, 46, 0.865);
+}
+
+.nav-bar {
+  background-color: rgb(225, 63, 63);
+  /* text-align: center; */
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 50px;
+}
+
+.nav-bar h1{
+  font-weight: bold;
+  color: whitesmoke;
+  font-size: 1.4rem;
+}
+
+.card {
+  margin: 20px;
+  display: flex;
+  
+  justify-content: center;
+}
+
+.card-container{
+  color: white;
+  width: 72%;
+  position: relative;
+  -webkit-box-shadow: 7px 10px 22px 0px rgba(221,212,247,1);
+-moz-box-shadow: 7px 10px 22px 0px rgba(221,212,247,1);
+box-shadow: 7px 10px 22px 0px rgba(221,212,247,1);
+ padding-right: 10px;
+}
+
+.cover-img{
+  height: 320px;
+  width: 250px;
+  float: left;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.maps{
+  position: absolute;
+  /* text-decoration: none; */
+  color: white;
+  top: 15px;
+  left: 37%;
+}
+
+.about {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.orange {
+  color: orange;
+}
